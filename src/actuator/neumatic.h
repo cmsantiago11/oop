@@ -4,10 +4,9 @@
 #include "values/direction.h"
 #include "actuator/actuator.h"
 
-class Neumatic
-{
+class Neumatic: public Actuator {
 public:
-    Neumatic(){};
+    Neumatic():Actuator(){};
     void move(Direction direction);
 };
 

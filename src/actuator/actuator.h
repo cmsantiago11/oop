@@ -5,7 +5,7 @@
 
 class Actuator {
     public:
-        virtual void move(Direction direction){};
+        virtual void move(Direction direction);
 };
 
 #endif
